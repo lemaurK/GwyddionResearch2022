@@ -1,3 +1,5 @@
+![UTA-DataScience-Logo](https://user-images.githubusercontent.com/89792487/208189079-d4fc4d67-01bc-4397-891e-52f05330eb12.png)
+
 # GwyddionResearch2022
 
 ### Hello researchers! 
@@ -15,4 +17,4 @@ Just in case you have any trouble getting the Pygwy Console in Gwyddion to appea
 ### After,
 you are able to complete the instructions above we can move on to the code and some sample data.
 
-Install wsl2 (Ubuntu)
+Install wsl2 [Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#2-install-wsl) to use Jupyter Notebooks. This link is 
