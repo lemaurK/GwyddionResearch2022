@@ -15,7 +15,7 @@ from matplotlib import pyplot as plt
 # The following functions complete all the data cleaning, analysis, and representation for matracies of z-value data from granular AFM images extracted from Gwyddion. 
 # The expected input is a raw data csv text file of n by n dimensions (square), containing values extracted from Gwyddion using the given PyGwy script.
 
-# ## The pipelines for going from the raw data of each AFM image, through the functions, to a graph are as follows...
+# ## Function Pipelines for going from raw data to final graphs
 # #### For graph of grain diameter (Minimum, Average, Maximum)
 # Open raw csv's -> SplitDataMatrixIntoRows() -> ExtractDistancesBetweenRelativeMinima_GrainDiameter() -> CalculateAverageAndStandardDeviation_GrainDiameter() -> Format outputs in lists (order must be preserved) to be plotted -> Plot
 #                                                                                                      -> CalculateAverageAndStandardDeviationOfMaximumAndMinimumGrainDiameter() -> Format outputs in lists (order must be preserved) to be plotted -> Plot
